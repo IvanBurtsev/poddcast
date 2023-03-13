@@ -1,0 +1,200 @@
+//1переменные---------------------------------------------------------
+//alert('Hello worlD!');
+//var name = 'Ivan';
+//const firstName = 'Ivan';
+
+//let age = 36;
+//age = 43;
+
+//const isProgrammer = true;
+//const widthNum5 = 4;
+//console.log(widthNum5);
+
+
+//мутирование-----------------------------------------------------------
+//console.log(`Имя человека: ${lastName}, а возраст:${age}`);
+//const lastName = prompt( 'Введите имя');
+//alert(lastName + ' '+ firstName);
+
+//3операторы---------------------------------------------------------
+/*let currentYear = 2020;
+const birthDay = 1993;
+
+//const age = currentYear + birthDay;
+//console.log(age);
+
+const a = 5;
+const b = 10;
+
+let c = 32;
+c += a;
+c -= a;
+c *= a;
+c /= a;
+console.log(a+b);
+console.log(a-b);
+console.log(a/b);
+console.log(a*b);
+console.log(a%b);
+console.log(++currentYear);
+console.log(++currentYear);
+console.log(++currentYear);
+console.log(c);*/
+
+//4 типы данных (5 примитивных типов данных)--------------------------------------------------------------
+//const isProgrammer = true;
+//const name = 'Ivan';
+//const age = 36;
+//let x;
+//console.log(typeof isProgrammer);
+//console.log(typeof name);
+//console.log(typeof age);
+//console.log(typeof x);
+//console.log(null);
+
+//5 приоретет операторов--------------------------------------------------------
+//const fullAge = 36;
+//const birthYear = 1986;
+//const currentYear = 2023;
+//const isFullAge = currentYear - birthYear >= fullAge
+//console.log(isFullAge);
+
+//6 условные операторы-----------------------------------------------------
+//const courseStatus ='fail';
+
+//if (courseStatus === 'ready') {
+//console.log('Курс  уже готов и его можно проходить');
+//}
+//else if (courseStatus === 'pending') {
+//console.log('Курс пока находится в процессе разработки');
+//}
+//else {
+//console.log('На выход!!!');
+//}
+
+//const isReady = true;
+// if (isReady) {
+//     console.log('all good!!!!')
+// }
+// else{
+//     console.log('EXIT! ERROR')
+// }
+
+
+//тернарное выражение
+//isReady ? console.log('all good!!!!') : console.log('EXIT ERROR!!!!')
+
+//const num1 = 42;
+//const num2 = '42';
+//console.log(num1 === num2)
+
+//7 булева логика--------------------------------------------------------------
+
+//8 функции--------------------------------------------------------------------
+
+//function calculateAge (year) {
+ //   return 2023 - year
+//}
+//console.log(calculateAge(1986));
+//console.log(calculateAge(1983));
+//console.log(calculateAge(2026));
+
+//function logInfoAbout(name, year, klichka) {
+    //const age = calculateAge(year)
+
+    //if(age > 0){
+   //     console.log('Человек по имени ' + name +  ' сейчас имеет возраст ' + age +  ' лет и кличку ' + klichka);
+   // }
+   // else{
+    //    console.log('это будущее')
+  //  }
+
+    //console.log('Человек по имени ' + name +  ' сейчас имеет возраст ' + age +  ' лет и кличку ' + klichka);
+
+//}
+//logInfoAbout( 'loxan', 1983, 'lox')
+//logInfoAbout( '45n', 2022, 'loxan')
+
+//9массивы-------------------------------------------------------------------------------
+//const cars =['mazda', 'mersedes', 'ford', 'fiat']
+//cars[0]='ferrarI'
+//console.log(cars);
+//const cars = new Array('mazda', 'mersedes', 'ford', 'fiat');
+
+//10циклы----------------------------------------------------------------------------
+//const cars =['mazda', 'mersedes', 'ford', 'fiat']
+
+//for (let i = 0; i < cars.length; i++)
+//{
+//    const car = cars[i];
+//    console.log(car);
+//}
+//for(let car of cars){
+//    console.log(car);
+//}
+
+//11объекты--------------------------------------------------------------
+const person = {
+    firstName: 'Ivan',
+    lastName: 'Burtsev',
+    age: 36,
+    languages: ['Ru', 'En', 'De'],
+    hasWife :false,
+    greet: function() {
+        console.log('hello greet!');
+    }
+}
+
+const key = 'age'
+console.log(person.firstName);
+console.log(person[key]);
+//console.log(person.languages);
+person.greet()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
